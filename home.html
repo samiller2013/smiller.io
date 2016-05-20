@@ -1,0 +1,10 @@
+<h1 class="cover-heading">{{website.person.name}}</h1>
+<p class="lead">Entrepreneur | Technologist | Professional</p>
+<p class="lead"> <a href ng-click="tab = 2" class="btn btn-lg btn-default">Learn more</a> </p>
+
+          <div class="mastfoot">
+            <div class="inner">
+                <a ng-repeat="media in website.media" ng-href="{{media.url}}" target="_blank"><img src="{{media.image}}" alt="{{media.title}}"></a>
+                <p><br><small>Adopted from <a href="https://twitter.com/mdo">@mdo's</a> Cover template for <a href="http://getbootstrap.com/">Bootstrap</a>.</small></p>
+            </div>
+          </div>
